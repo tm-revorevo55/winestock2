@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Wine name:</strong>
+  <%= @nonda.wine_name %>
+</p>
+
+<p>
+  <strong>Producer:</strong>
+  <%= @nonda.producer %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @nonda.country %>
+</p>
+
+<p>
+  <strong>Region:</strong>
+  <%= @nonda.region %>
+</p>
+
+<p>
+  <strong>General notes:</strong>
+  <%= @nonda.general_notes %>
+</p>
+
+<p>
+  <strong>Min price:</strong>
+  <%= @nonda.min_price %>
+</p>
+
+<p>
+  <strong>Max price:</strong>
+  <%= @nonda.max_price %>
+</p>
+
+<p>
+  <strong>Wishes note:</strong>
+  <%= @nonda.wishes_note %>
+</p>
+
+<%= link_to 'Edit', edit_nonda_path(@nonda) %> |
+<%= link_to 'Back', nondas_path %>
